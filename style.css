@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+header {
+    height: 10vh;
+    background-color: black;
+    color: blanchedalmond;
+}
+span {
+    color: red;
+}
+main {
+    height: 85vh;
+    width: 100%;
+    background-image: url('bgrap.jpg');
+    background-size: cover; 
+    background-color: black; 
+    background-position: center;
+    color: white;
+    margin: 0px;
+}
+.miniature img{
+border: 3px solid red;
+position: fixed;
+right: 7px;
+top: 40px;
+}
+footer {
+    height: 5vh;
+}
