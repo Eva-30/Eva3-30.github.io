@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+/* en-tête : titre + réseaux sociaux */
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: blanchedalmond;
+}
+/* titre Alter/Actions*/
+h1{
+    margin: 0px;
+    padding: 7px;
+    font-size: 30px;
+    color: white;
+}
+span {
+    color: red;
+}
+/* sous titre Découvrez en exclusivité notre clip : */
+main h2{
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    text-shadow: red 5px 2px;
+}
+/* bouton découvrir  a revoir*/
+.bouton{                                    
+    position: relative;
+} 
+/* bouton découvrir style */
+ h3{
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+/* emplacement réseaux sociaux */
+.reseauxsociaux{
+
+    margin-top: 3px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+/* caractéristique du milieu de page */
+main {
+    height: 85vh;
+    width: 100%;
+    background-image: url('bgrap2.jpg');
+    background-size: cover; 
+    background-color: black; 
+    background-position: center;
+    margin: 0px;
+    padding: 1px;
+} 
+/* bouton animation */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: red;
+}
+/* div  central : de la miniature + titre h2 */
+/* .miniature img{
+    border: 3px solid red;
+    position: fixed;
+    right: 7px;
+    top: 40px; */
+/* } */
+/* .central{
+margin-top: 5px;
+display: flex;
+justify-content: space-around;
+} */
+/* décoration miniature "cover" + emplacement */
+.miniature{
+     border: 3px solid red; 
+     box-shadow: tomato 5px 12px 5px; 
+}
+/* positionnement cover + bouton flexbox */
+.photobillets{
+    padding-right: 15px; 
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+}
+/* caractéristques footer */
+footer {
+    height: 5vh;
+    background-color: black;
+}
+/* caractéristiques texte copyright */
+.copyright{
+    padding-top: 15px;
+    margin: 0px;
+    text-align: center;
+    color:blue;
+    font-weight: bolder;
+}
+/* insertion media queries pour version mobile */
+
+@media screen and (max-width:766px){
+body{
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+}
+.reseauxsociaux{
+    padding-top: 15px;
+}
+.face{
+    width: 30px;
+    height: 30px;
+}
+.snap{
+    width: 30px;
+    height: 30px;
+}
+.twit{
+    width: 30px;
+    height: 30px;
+}
+.miniature{
+    margin-top: 120px;
+}
+.miniature img{
+    width: 150px;
+    height: 150px;
+}
+/* suppression du titre */
+h2{
+    display: none;
+}
+header{
+    justify-content: center;
+}
+
+/* header .reseauxsociaux{
+    font-size: 25px;
+    margin: 2px;
+} */
+footer{
+    padding: Opx;
+}
+
+}
